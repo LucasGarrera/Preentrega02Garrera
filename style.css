@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+
+.navbar{
+    width: 100%; 
+    position: fixed;
+}
+
+.logo-nav{
+    width: 12rem;
+}
+
