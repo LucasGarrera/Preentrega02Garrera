@@ -58,6 +58,7 @@
 .container-servicios-index{
     display: grid;
     margin:100px;
+    margin-bottom: -60px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 150px);
     gap: 40px;    
@@ -67,17 +68,44 @@
     border-left: 1px solid gray;
  
 }
-.container-servicios-index div h3{
-    
-}
-
-.container-servicios-index div p{
-    
-}
 
 .container-servicios-index div button{
 background-color: rgb(236, 240, 36) ;
 border-radius: 55px;
 padding: 5px 20px;
 border: none;
+}
+
+.comunicate{
+    font-size: 2rem;
+    text-align: center;
+    color: gray;
+
+}
+
+/* footer */
+footer div{
+    display: flex;
+    justify-content: center;
+}
+.ig-icon{
+    width: 30px;
+}
+.wa-icon{
+    width: 30px;
+}
+.logo-fo{
+    width: 6rem;
+}
+footer div a{
+    padding: 20px;
+}
+.by p{
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+/* trabajos realizados */
+.secvtion1-trabajos h2{
+    margin-top: 9rem;
 }
