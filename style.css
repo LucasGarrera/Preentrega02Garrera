@@ -23,7 +23,7 @@
 .img-index {
     /* display: flex;
     flex-wrap: wrap; */
-    width: 84.3rem;
+    width: 100%;
     height: 36rem;
     margin-top: 5rem;
     opacity: 80%;
@@ -97,7 +97,7 @@
     background-color: black;
     color: rgb(236, 240, 36);
 }
-
+/* footer */
 .comunicate {
     font-size: 2rem;
     text-align: center;
@@ -105,7 +105,6 @@
 
 }
 
-/* footer */
 footer {
     margin-top: 10rem;
 }
@@ -144,6 +143,9 @@ footer div a {
 }
 
 /* BLog */
+.container-blog img{
+    width: 100%;
+}
 .container-blog h2 {
     font-size: 2rem;
     text-align: center;
