@@ -167,7 +167,7 @@ footer div a {
     align-items: center;
     justify-content: space-between;
     margin-top: 7rem;
-    
+
 }
 
 /* media queries mobile */
@@ -178,6 +178,7 @@ footer div a {
 
     .container-section1 h2 {
         font-size: 3rem;
+        text-align: center;
     }
 
     .container-servicios-index {
